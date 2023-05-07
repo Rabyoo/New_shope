@@ -1,0 +1,246 @@
+:root {
+  --orangeColor: rgba(248, 147, 0, 1);
+  --redColor: rgba(246, 27, 90, 1);
+  --blackColor: rgba(0, 0, 0, 0.75);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+body {
+  width: 100%;
+}
+
+.se-p1 {
+  padding: 40px 80px;
+  text-align: center;
+}
+.se-p1 h2 {
+  color: #d0d2d2;
+    font-size: 75px;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: -3px;
+    margin: 0;
+}
+/* header start */
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+}
+
+#hero {
+  text-align: center;
+  color: white;
+  background-color: var(--orangeColor);
+  height: 364px;
+  display: flex;
+  justify-content: space-between;
+}
+#pro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  line-height: 50px;
+}
+#hero::after {
+  content: url(../banner-imaj/icons45.png);
+  position: absolute;
+  left: 490px;
+}
+section div .vector:hover {
+   color: var(--orangeColor);
+}
+
+/* Products start */
+
+#Products .gro {
+  width: 23%;
+  min-width: 320px;
+  padding: 10px 12px;
+  cursor: pointer;
+  margin: 15px 0;
+  transition: 0.2s ease;
+  position: relative;
+}
+
+#Products .gro-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+
+#Products .gro:hover {
+  box-shadow: 20px 20px 30px rgba(248, 147, 0, 0.20);
+}
+#Products .gro img {
+  width: 100%;
+  border-radius: 16px;
+}
+.des {
+  display: flex;
+  justify-content: space-between;
+  text-align: start;
+  
+}
+.des h3 {
+  margin-top:10px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+}
+.des span {
+  margin-top:10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+#Products p {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 18px;
+  text-align: start;
+}
+#Products .gro .heart {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50px;
+  background-color: var(--orangeColor);
+  font-weight: 500;
+  color: white;
+  top: 20px;
+  right: 22px;
+  position: absolute;
+}
+
+/* see more start */
+#see {
+  text-align: center;
+  
+  
+}
+.seeLink {
+  color: rgba(246, 27, 90, 1);
+  text-decoration: none;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* single product */
+
+#prouduct2 {
+  display: flex;
+}
+
+
+
+#prouduct2 .single-image-de {
+  margin-right: 40px;
+}
+#prouduct2 .single-image-de h1 {
+  padding: 40px 0 20px;
+  font-weight: bolder;
+}
+
+/* star login */
+
+#form-box {
+  width: 700px;
+  margin: 20px auto;
+  padding: 50px 0;
+}
+#form-box h1 {
+  margin-bottom: 15px;
+  text-align: center;
+  
+}
+#form-box span {
+  color: rgba(112, 123, 129, 1);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+
+}
+#form-box h2 {
+  font-weight: 400;
+  font-size: 18px;
+  color: rgba(33, 33, 33, 1);
+  margin-top: 38px;
+
+}
+.input-box {
+  margin: 31px auto;
+  border-bottom: 1px solid var(--orangeColor);
+  padding-top: 10px;
+  padding-bottom: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 700;
+}
+.input-box input {
+  border: none;
+
+
+  position: relative;
+    right: 281px;
+    top: 44px;
+    padding: 6px;
+    border: none;
+}
+/* Start Login */
+.input-box .Em {
+  position: relative;
+    right: 520px;
+}
+.input-box .Em:hover {
+  border:none;
+}
+.Remember {
+  display: flex;
+}
+.Remember img {
+  margin-right: 10px;
+}
+.Remember h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(33, 33, 33, 1);
+}
+.login-btn {
+  width: 100px;
+  height: 35px;
+  margin: 70px auto 20px;
+  outline: none;
+  border: none;
+  color: white ;
+  font-weight: 500;
+  font-size: 25px;
+  display: block;
+  cursor: pointer;
+  background-color:rgba(246, 27, 90, 1);
+  border-radius: 9px;
+}
+.login-btn:hover {
+  color:rgba(246, 27, 90, 1);
+  background-color: white;
+  border: 2px solid rgba(246, 27, 90, 1);
+  transition: 0.7s;
+}
+/* End Login */
+section .seeLink:hover {
+    color: #000;
+}
+
+
+
